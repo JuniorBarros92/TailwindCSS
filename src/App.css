@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+@media (min-width: 640px) {
+  .container {
+    padding-inline: 1rem;
+  }
+}
+
+@theme {
+  --color-verde-200: #d9f2e3;
+  --color-verde-300: #a7d7b8;
+  --color-verde-400: #6fbf94;
+  --color-verde-500: #3f8f6b;
+  --color-verde-600: #2f6e52;
+  --color-verde-700: #245943;
+  --color-verde-800: #1b4634;
+  --color-verde-900: #123126;
+  --color-verde-950: #0a1f18;
+}
