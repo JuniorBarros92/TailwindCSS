@@ -1,7 +1,7 @@
 import Hero from './components/Hero';
 import './App.css';
 import Header from './components/Header';
-import Introducao from './components/Introducao';
+import { Introducao } from './components/Introducao';
 
 function App() {
   return (
