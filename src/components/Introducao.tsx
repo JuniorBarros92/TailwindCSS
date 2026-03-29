@@ -10,10 +10,10 @@ export function Introducao() {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-linear-to-t from-verde-950/95 via-verde-950/70 to-verde-950/20" />
+        <div className="absolute inset-0 from-verde-950/95 via-verde-950/70 to-verde-950/20" />
 
         {/* Conteúdo */}
-        <div className="relative z-10 max-w-5xl mx-auto">
+        <div className="relative z-10 max-w-5xl mx-auto ">
           {/* Badge */}
           <div className="mb-6 sm:mb-10">
             <div
@@ -37,7 +37,7 @@ export function Introducao() {
           <h1
             className="font-serif text-2xl leading-tight mb-6
             sm:text-4xl sm:mb-12
-            lg:text-5xl lg:mb-16 max-w-xl sm:max-w-2xl"
+            lg:text-5xl lg:mb-16 max-w-xl sm:max-w-2xl p-2"
           >
             Venha Experimentar a Vida na Floresta
           </h1>
