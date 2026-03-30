@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="container flex items-center justify-between gap-8 py-8">
+    <header className="container bg-linear-to-t flex items-center justify-between gap-8 py-8">
       <a href="/">
         <img src="./img/forest.svg" alt="Forest" />
       </a>
