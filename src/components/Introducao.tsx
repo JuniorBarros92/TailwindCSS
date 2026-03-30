@@ -21,7 +21,7 @@ export function Introducao() {
               sm:flex-row sm:items-center sm:gap-6 sm:px-4 sm:py-1 sm:rounded-full"
             >
               <span className="text-xs sm:text-sm">
-                vagas abertas para dezembro
+                temos vaga para dezembro
               </span>
 
               <a

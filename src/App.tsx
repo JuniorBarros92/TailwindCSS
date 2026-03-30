@@ -7,6 +7,8 @@ import Eventos from './components/Eventos';
 import Experiencias from './components/Experiencias';
 import CicloNatural from './components/CicloNatural';
 import Contato from './components/Contato';
+import Parceiros from './components/Parceiros';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Experiencias />
       <CicloNatural />
       <Contato />
+      <Parceiros />
+      <Footer />
     </div>
   );
 }
