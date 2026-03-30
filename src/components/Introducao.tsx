@@ -25,7 +25,7 @@ export function Introducao() {
               </span>
 
               <a
-                className="bg-verde-400 text-verde-900 py-2 px-4 rounded-full text-xs sm:text-sm font-medium hover:brightness-110 transition"
+                className="bg-verde-200 text-verde-900 py-2 px-4 rounded-full text-xs sm:text-sm font-medium hover:brightness-110 transition"
                 href="#"
               >
                 Reserve Hoje

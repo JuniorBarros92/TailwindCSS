@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import { Introducao } from './components/Introducao';
 import Acomodacoes from './components/Acomodacoes';
+import Eventos from './components/Eventos';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Introducao />
       <Acomodacoes />
+      <Eventos />
     </div>
   );
 }

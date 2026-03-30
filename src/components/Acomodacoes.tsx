@@ -5,7 +5,7 @@ export function Acomodacoes() {
       className="container mx-auto px-4 grid gap-8 pt-16 mb-12 sm:mb-16 lg:grid-cols-[2fr_3fr]"
     >
       {/* Lado esquerdo */}
-      <div className="content-end bg-[url('/img/padrao.svg')] bg-no-repeat bg-contain bg-left-left pb-8 mb:pb-48">
+      <div className="content-end bg-[url('/img/padrao.svg')] bg-no-repeat bg-contain bg-left-left pb-8 ">
         <h2 className="text-white mb-8 text-3xl  font-serif sm:text-4xl lg:text-5xl">
           Refúgio Natural
         </h2>

@@ -11,13 +11,13 @@
 }
 
 @theme {
-  --color-verde-200: #d9f2e3;
-  --color-verde-300: #a7d7b8;
+  --color-verde-200: #acef75;
+  --color-verde-300: #91ee77;
   --color-verde-400: #6fbf94;
   --color-verde-500: #3f8f6b;
   --color-verde-600: #2f6e52;
-  --color-verde-700: #245943;
-  --color-verde-800: #1b4634;
-  --color-verde-900: #123126;
-  --color-verde-950: #0a1f18;
+  --color-verde-700: #2e482c;
+  --color-verde-800: #16281f;
+  --color-verde-900: #0f1c15;
+  --color-verde-950: #030504;
 }
