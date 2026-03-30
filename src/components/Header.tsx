@@ -1,3 +1,5 @@
+import MobileMenu from './MobileMenu';
+
 function Header() {
   return (
     <header className="container bg-linear-to-t flex items-center justify-between gap-8 py-8">
@@ -44,6 +46,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <MobileMenu />
     </header>
   );
 }
