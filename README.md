@@ -39,7 +39,7 @@ npm install
 npm run dev
 ```
 
-O site estará disponível em `http://localhost:5173`
+O site estará disponível em `http://localhost:3000`
 
 ## 📦 Scripts Disponíveis
 
@@ -169,50 +169,8 @@ plugins: [react(), tailwindcss()];
 ### Hot Reload não funciona
 
 - Feche e reincie o servidor: `npm run dev`
-- Verifique se Vite está rodando na porta 5173
+- Verifique se Vite está rodando na porta 3000
 
-## 🚀 Deploy
 
-### Build para Produção
-
-```bash
-npm run build
-```
-
-Isto vai gerar a pasta `dist/` pronta para deploy.
-
-### Plataformas Recomendadas
-
-- **Vercel** - Deploy zero-config
-- **Netlify** - Build automático do Git
-- **GitHub Pages** - Hospedagem gratuita
-- **AWS Amplify** - Deploy e hosting
-
-## 📝 Variáveis de Ambiente
-
-Crie um arquivo `.env` se necessário:
-
-```
-VITE_API_URL=https://seu-backend-aqui.com
-```
-
-## 🤔 Próximos Passos
-
-- [ ] Integração com backend para dados reais
-- [ ] Formulário de contato funcional
-- [ ] Integração com email/SMS
-- [ ] Dashboard de admin
-- [ ] Reservas online
-- [ ] Autenticação de usuários
-
-## 📄 Licença
-
-Este projeto é privado. Consulte a equipe para detalhes de licença.
-
-## 👥 Contato
-
-Para dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento.
-
----
 
 ⭐ Se este projeto foi útil, considere deixar uma estrela no GitHub!
