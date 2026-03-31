@@ -2,7 +2,7 @@ export function Acomodacoes() {
   return (
     <section
       id="acomodacoes"
-      className="container mx-auto px-4 grid gap-8 pt-16 mb-12 sm:mb-16 lg:grid-cols-[2fr_3fr]"
+      className="container radial-gradient  mx-auto px-4 grid gap-8 pt-16 mb-12 sm:mb-16 lg:grid-cols-[2fr_3fr]"
     >
       {/* Lado esquerdo */}
       <div className="content-end bg-[url('/img/padrao.svg')] bg-no-repeat bg-contain bg-left-left pb-8 ">
@@ -19,7 +19,7 @@ export function Acomodacoes() {
             'Escolha a sua cabine preferida',
           ].map((item, index) => (
             <li key={index} className="flex items-center gap-4">
-              <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+              <span className="h-0.5 w-6 neon inline-block"></span>
               {item}
             </li>
           ))}

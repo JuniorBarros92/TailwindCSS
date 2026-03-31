@@ -71,7 +71,7 @@ const Contato = () => {
 
         <div className="grid gap-4">
           <div>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             <h2 className="mb-2 text-2xl text-verde-300 font-serif">Base</h2>
             <p className="text-gray-300">
               Rua da Mata, 123 - Floresta Nacional - RJ
@@ -79,13 +79,13 @@ const Contato = () => {
           </div>
 
           <div>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             <h2 className="mb-2 text-2xl text-verde-300 font-serif">Email</h2>
             <p className="text-gray-300">contato@forest.com</p>
           </div>
 
           <div>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             <h2 className="mb-2 text-2xl text-verde-300 font-serif">
               Telefone
             </h2>
@@ -163,7 +163,7 @@ const Contato = () => {
 
         <button
           disabled={loading}
-          className={`place-self-start py-2 px-4 rounded-full transition ${
+          className={`place-self-start py-2 px-4 rounded-full btn cursor-pointer transition ${
             loading
               ? 'bg-gray-500 cursor-not-allowed'
               : 'bg-verde-400 text-verde-900 hover:opacity-80'

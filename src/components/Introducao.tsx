@@ -1,19 +1,20 @@
+import ClimaVideo from './Video';
+
 export function Introducao() {
   return (
     <main className="container mx-auto px-4">
       <section
-        className="relative rounded-2xl overflow-hidden text-white
-        bg-cover bg-center
-        py-16 sm:py-24 lg:py-32"
-        style={{
-          backgroundImage: 'url(/img/floresta.jpg)',
-        }}
+        className="relative rounded-2xl overflow-hidden text-white min-h-screen
+        flex items-center justify-center py-16 sm:py-24 lg:py-32"
       >
-        {/* Overlay */}
-        <div className="absolute inset-0 from-verde-950/95 via-verde-950/70 to-verde-950/20" />
+        {/* 🎥 VIDEO FUNDO */}
+        <ClimaVideo />
 
-        {/* Conteúdo */}
-        <div className="relative z-10 max-w-5xl mx-auto ">
+        {/* 🌑 OVERLAY */}
+        <div className="absolute inset-0 bg-linear-to-t from-black via-transparent to-transparent z-20" />
+
+        {/* 📝 CONTEÚDO */}
+        <div className="relative z-30 max-w-5xl mx-auto w-full px-4">
           {/* Badge */}
           <div className="mb-6 sm:mb-10">
             <div
@@ -25,7 +26,7 @@ export function Introducao() {
               </span>
 
               <a
-                className="bg-verde-200 text-verde-900 py-2 px-4 rounded-full text-xs sm:text-sm font-medium hover:brightness-110 transition"
+                className="btn text-verde-900 py-2 nded-full text-xs sm:text-sm font-medium hover:brightness-110 transition"
                 href="#"
               >
                 Reserve Hoje

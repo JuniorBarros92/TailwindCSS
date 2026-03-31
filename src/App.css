@@ -1,4 +1,10 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 @utility container {
   margin-inline: auto;
@@ -16,6 +22,43 @@
   placeholder:text-verde-900;
 }
 
+@layer components {
+  .neon {
+    @apply rounded-full border border-verde-200 bg-linear-to-b from-verde-200 to-verde-400;
+    box-shadow:
+      0 1px 4px 1px rgb(172 239 117 / 25%),
+      inset 0px -1px 2px rgb(172 239 117);
+  }
+
+  .btn {
+    @apply rounded-full border border-verde-200 bg-linear-to-b from-verde-200 to-verde-400 px-5 py-2 text-verde-900 transition hover:contrast-200;
+    box-shadow:
+      0 1px 4px 1px rgb(172 239 117 / 25%),
+      inset 0px -1px 2px rgb(172 239 117);
+  }
+
+  .radial-gradient {
+    background-image: radial-gradient(
+      50% 100% at 50% 0%,
+      var(--color-verde-700) 0%,
+      var(--color-verde-800) 100%
+    );
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-in;
+}
+
 @theme {
   --color-verde-200: #acef75;
   --color-verde-300: #91ee77;
@@ -26,4 +69,7 @@
   --color-verde-800: #16281f;
   --color-verde-900: #0f1c15;
   --color-verde-950: #030504;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'DM Serif Text', serif;
+  --font-display: 'Spectral', serif;
 }

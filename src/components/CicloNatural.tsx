@@ -49,7 +49,7 @@ const CicloNatural = () => {
               ${item.destaque ? 'sm:translate-y-12 sm:hover:translate-y-10' : 'sm:hover:-translate-y-2'}
             `}
           >
-            <div className="bg-verde-400 rounded-full size-10 flex items-center justify-center">
+            <div className="neon  size-10 flex items-center justify-center">
               <img src={item.img} alt={item.titulo} />
             </div>
 

@@ -30,7 +30,7 @@ function Eventos() {
 
             <a
               href="#contato"
-              className="justify-self-start self-end bg-verde-200 text-verde-900 py-2 px-4 inline-block rounded-full"
+              className="justify-self-start self-end btn text-verde-900 py-2  inline-block rounded-full"
             >
               Reservar 23/03
             </a>
@@ -54,7 +54,7 @@ function Eventos() {
 
             <a
               href="#contato"
-              className="justify-self-start self-end bg-verde-200 text-verde-900 py-2 px-4 inline-block rounded-full"
+              className="justify-self-start self-end btn text-verde-900 py-2  inline-block rounded-full"
             >
               Reservar 15/04
             </a>
@@ -78,7 +78,7 @@ function Eventos() {
 
             <a
               href="#contato"
-              className="justify-self-start self-end bg-verde-200 text-verde-900 py-2 px-4 inline-block rounded-full"
+              className="justify-self-start self-end btn text-verde-900 py-2  inline-block rounded-full"
             >
               Reservar 18/08
             </a>

@@ -8,7 +8,7 @@ export default function MobileMenu() {
       {/* BOTÃO */}
       <button
         onClick={() => setOpen(!open)}
-        className="lg:hidden flex items-center gap-3 cursor-pointer bg-green-400 text-green-900 py-2 px-4 rounded-full z-50 relative"
+        className="lg:hidden flex btn items-center gap-3 cursor-pointer  text-green-900 py-2  rounded-full z-50 relative"
         aria-label="Abrir menu"
         aria-expanded={open}
       >
